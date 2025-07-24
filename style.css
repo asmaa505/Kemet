@@ -99,3 +99,30 @@ body{
     }
 }
 /* Services end */
+
+/* contact start */
+.cont{
+    height: 40%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: 9em;
+    position: relative;
+    background-color: black;
+}
+
+.cont img{
+    width: 20%;
+    height: 150%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 100px;
+}
+.name{
+    color: rgb(255, 140, 0);
+}
+/* contact end */
+
+
+
+/* Tablet 768px */

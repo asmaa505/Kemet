@@ -169,6 +169,10 @@ confirmPass.addEventListener("input" , ()=>{
 });
 
 
+
+let button = document.querySelector(`#submit`);
+
+
 let form = document.querySelector(`.form`);
 let btn = document.querySelector(`.submit`);
 form.addEventListener("submit" , (e)=>{
@@ -251,7 +255,9 @@ form.addEventListener("submit" , (e)=>{
             title: "Registration Complete!",
             text: "Good Job",
         }) 
-    } 
+        button.innerHTML += `
+                            <a href="../index.html">Go to Home</a>
+    `
     
     
 });
