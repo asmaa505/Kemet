@@ -122,7 +122,7 @@ let regexEmail = /^\w{3,9}@[a-z]{3,5}\.[a-z]{2,3}$/;
 let Email = document.querySelector(`#email`);
 let ul5 = document.querySelector(`.ul5`);
 
-Email.addEventListener("input", () => {
+Email.addEventListener("input", ()=> {
     ul5.innerHTML = "";
     if (!regexEmail.test(Email.value)) {
         ul5.innerHTML += `
@@ -258,6 +258,6 @@ form.addEventListener("submit" , (e)=>{
         button.innerHTML += `
                             <a href="../index.html">Go to Home</a>
     `
-    
+    }
     
 });
